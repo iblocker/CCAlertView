@@ -4,14 +4,6 @@
 
 包含多选的自定义弹窗，高仿系统弹窗，使用Window加载，不需要获取顶层viewController
 
-<div align="center">
-<img src="/Users/iBlocker/Documents/GitHub/CCAlertView/images/oneItems2x.png" height="330" width="190"><img src="/Users/iBlocker/Documents/GitHub/CCAlertView/images/twoItems@2x.png" width="190" ><img src="/Users/iBlocker/Documents/GitHub/CCAlertView/images/threeItems@2x.png" height="330" width="190" ></div>
-
-<div align="center">
-<img src="/Users/iBlocker/Documents/GitHub/CCAlertView/images/oneItemsPicker2x.png" height="330" width="190"><img src="/Users/iBlocker/Documents/GitHub/CCAlertView/images/twoItemsPicker@2x.png" height="330" width="190" ><img src="/Users/iBlocker/Documents/GitHub/CCAlertView/images/threeItemsPicker@2x.png" height="330" width="190" ></div>
-
- 
-
 普通弹窗初始化代码如下：
 
 ```objective-c
