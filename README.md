@@ -16,10 +16,12 @@ CCActionItem *cancelItem = [CCActionItem itemWithTitle:@"我已了解" titleColo
   NSLog(@"点击了我已了解");
 }];
 [alertView addItem:cancelItem];
+
 CCActionItem *confirmItem = [CCActionItem itemWithTitle:@"修改密码" titleColor:UIColor.blueColor  handler:^{
   NSLog(@"点击了修改密码");
 }];
 [alertView addItem:confirmItem];
+
 CCActionItem *lockAction = [CCActionItem itemWithTitle:@"锁定账户" handler:^{
   NSLog(@"点击了锁定账户");
 }];
