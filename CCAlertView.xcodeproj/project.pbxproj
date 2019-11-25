@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8433704A237269AF00C21222 /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84337049237269AE00C21222 /* CCTableViewController.m */; };
+		849A575A237109B000F4C78D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A5759237109B000F4C78D /* AppDelegate.m */; };
+		849A5765237109B300F4C78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849A5764237109B300F4C78D /* Assets.xcassets */; };
+		849A5768237109B300F4C78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A5766237109B300F4C78D /* LaunchScreen.storyboard */; };
+		849A576B237109B300F4C78D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A576A237109B300F4C78D /* main.m */; };
+		849A5774237109DF00F4C78D /* CCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A5773237109DF00F4C78D /* CCAlertView.m */; };
+		849A577723710CEC00F4C78D /* CCAlertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A577623710CEC00F4C78D /* CCAlertModel.m */; };
+		849A577A23710DD200F4C78D /* CCActionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A577923710DD200F4C78D /* CCActionItem.m */; };
+		849A578023713E2900F4C78D /* alert_picker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849A577C23713E2900F4C78D /* alert_picker@3x.png */; };
+		849A578123713E2900F4C78D /* alert_unpicker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849A577D23713E2900F4C78D /* alert_unpicker@2x.png */; };
+		849A578223713E2900F4C78D /* alert_unpicker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849A577E23713E2900F4C78D /* alert_unpicker@3x.png */; };
+		849A578323713E2900F4C78D /* alert_picker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849A577F23713E2900F4C78D /* alert_picker@2x.png */; };
+		849A578623713E7E00F4C78D /* CCAlertPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A578523713E7E00F4C78D /* CCAlertPickerView.m */; };
+		849A578923713E9E00F4C78D /* CCAlertPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A578823713E9E00F4C78D /* CCAlertPickerCell.m */; };
+		849A578C23713EB300F4C78D /* CCAlertPickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A578B23713EB300F4C78D /* CCAlertPickerItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84337048237269AE00C21222 /* CCTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		84337049237269AE00C21222 /* CCTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
+		849A5755237109B000F4C78D /* CCAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849A5758237109B000F4C78D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849A5759237109B000F4C78D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849A5764237109B300F4C78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849A5767237109B300F4C78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849A5769237109B300F4C78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849A576A237109B300F4C78D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849A5772237109DF00F4C78D /* CCAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAlertView.h; sourceTree = "<group>"; };
+		849A5773237109DF00F4C78D /* CCAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAlertView.m; sourceTree = "<group>"; };
+		849A577523710CEC00F4C78D /* CCAlertModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAlertModel.h; sourceTree = "<group>"; };
+		849A577623710CEC00F4C78D /* CCAlertModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAlertModel.m; sourceTree = "<group>"; };
+		849A577823710DD200F4C78D /* CCActionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCActionItem.h; sourceTree = "<group>"; };
+		849A577923710DD200F4C78D /* CCActionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCActionItem.m; sourceTree = "<group>"; };
+		849A577C23713E2900F4C78D /* alert_picker@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_picker@3x.png"; sourceTree = "<group>"; };
+		849A577D23713E2900F4C78D /* alert_unpicker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_unpicker@2x.png"; sourceTree = "<group>"; };
+		849A577E23713E2900F4C78D /* alert_unpicker@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_unpicker@3x.png"; sourceTree = "<group>"; };
+		849A577F23713E2900F4C78D /* alert_picker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_picker@2x.png"; sourceTree = "<group>"; };
+		849A578423713E7E00F4C78D /* CCAlertPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAlertPickerView.h; sourceTree = "<group>"; };
+		849A578523713E7E00F4C78D /* CCAlertPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAlertPickerView.m; sourceTree = "<group>"; };
+		849A578723713E9E00F4C78D /* CCAlertPickerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAlertPickerCell.h; sourceTree = "<group>"; };
+		849A578823713E9E00F4C78D /* CCAlertPickerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAlertPickerCell.m; sourceTree = "<group>"; };
+		849A578A23713EB300F4C78D /* CCAlertPickerItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAlertPickerItem.h; sourceTree = "<group>"; };
+		849A578B23713EB300F4C78D /* CCAlertPickerItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAlertPickerItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849A5752237109B000F4C78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849A574C237109B000F4C78D = {
+			isa = PBXGroup;
+			children = (
+				849A5757237109B000F4C78D /* CCAlertView */,
+				849A5756237109B000F4C78D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849A5756237109B000F4C78D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849A5755237109B000F4C78D /* CCAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849A5757237109B000F4C78D /* CCAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				849A5771237109BD00F4C78D /* CCAlertView */,
+				849A5758237109B000F4C78D /* AppDelegate.h */,
+				849A5759237109B000F4C78D /* AppDelegate.m */,
+				84337048237269AE00C21222 /* CCTableViewController.h */,
+				84337049237269AE00C21222 /* CCTableViewController.m */,
+				849A5764237109B300F4C78D /* Assets.xcassets */,
+				849A5766237109B300F4C78D /* LaunchScreen.storyboard */,
+				849A5769237109B300F4C78D /* Info.plist */,
+				849A576A237109B300F4C78D /* main.m */,
+			);
+			path = CCAlertView;
+			sourceTree = "<group>";
+		};
+		849A5771237109BD00F4C78D /* CCAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				849A577B23713DEA00F4C78D /* Resource */,
+				849A5772237109DF00F4C78D /* CCAlertView.h */,
+				849A5773237109DF00F4C78D /* CCAlertView.m */,
+				849A577523710CEC00F4C78D /* CCAlertModel.h */,
+				849A577623710CEC00F4C78D /* CCAlertModel.m */,
+				849A577823710DD200F4C78D /* CCActionItem.h */,
+				849A577923710DD200F4C78D /* CCActionItem.m */,
+				849A578423713E7E00F4C78D /* CCAlertPickerView.h */,
+				849A578523713E7E00F4C78D /* CCAlertPickerView.m */,
+				849A578723713E9E00F4C78D /* CCAlertPickerCell.h */,
+				849A578823713E9E00F4C78D /* CCAlertPickerCell.m */,
+				849A578A23713EB300F4C78D /* CCAlertPickerItem.h */,
+				849A578B23713EB300F4C78D /* CCAlertPickerItem.m */,
+			);
+			path = CCAlertView;
+			sourceTree = "<group>";
+		};
+		849A577B23713DEA00F4C78D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				849A577F23713E2900F4C78D /* alert_picker@2x.png */,
+				849A577C23713E2900F4C78D /* alert_picker@3x.png */,
+				849A577D23713E2900F4C78D /* alert_unpicker@2x.png */,
+				849A577E23713E2900F4C78D /* alert_unpicker@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849A5754237109B000F4C78D /* CCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849A576E237109B300F4C78D /* Build configuration list for PBXNativeTarget "CCAlertView" */;
+			buildPhases = (
+				849A5751237109B000F4C78D /* Sources */,
+				849A5752237109B000F4C78D /* Frameworks */,
+				849A5753237109B000F4C78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCAlertView;
+			productName = CCAlertViewDemo;
+			productReference = 849A5755237109B000F4C78D /* CCAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849A574D237109B000F4C78D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = iBlocker;
+				TargetAttributes = {
+					849A5754237109B000F4C78D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 849A5750237109B000F4C78D /* Build configuration list for PBXProject "CCAlertView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849A574C237109B000F4C78D;
+			productRefGroup = 849A5756237109B000F4C78D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849A5754237109B000F4C78D /* CCAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849A5753237109B000F4C78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A578123713E2900F4C78D /* alert_unpicker@2x.png in Resources */,
+				849A578223713E2900F4C78D /* alert_unpicker@3x.png in Resources */,
+				849A5768237109B300F4C78D /* LaunchScreen.storyboard in Resources */,
+				849A5765237109B300F4C78D /* Assets.xcassets in Resources */,
+				849A578023713E2900F4C78D /* alert_picker@3x.png in Resources */,
+				849A578323713E2900F4C78D /* alert_picker@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849A5751237109B000F4C78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A578C23713EB300F4C78D /* CCAlertPickerItem.m in Sources */,
+				849A575A237109B000F4C78D /* AppDelegate.m in Sources */,
+				849A577723710CEC00F4C78D /* CCAlertModel.m in Sources */,
+				849A5774237109DF00F4C78D /* CCAlertView.m in Sources */,
+				849A577A23710DD200F4C78D /* CCActionItem.m in Sources */,
+				849A578923713E9E00F4C78D /* CCAlertPickerCell.m in Sources */,
+				849A578623713E7E00F4C78D /* CCAlertPickerView.m in Sources */,
+				849A576B237109B300F4C78D /* main.m in Sources */,
+				8433704A237269AF00C21222 /* CCTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		849A5766237109B300F4C78D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849A5767237109B300F4C78D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849A576C237109B300F4C78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		849A576D237109B300F4C78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849A576F237109B300F4C78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L5WW3BGWT;
+				INFOPLIST_FILE = CCAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iblocker.CCAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849A5770237109B300F4C78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6L5WW3BGWT;
+				INFOPLIST_FILE = CCAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iblocker.CCAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849A5750237109B000F4C78D /* Build configuration list for PBXProject "CCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849A576C237109B300F4C78D /* Debug */,
+				849A576D237109B300F4C78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849A576E237109B300F4C78D /* Build configuration list for PBXNativeTarget "CCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849A576F237109B300F4C78D /* Debug */,
+				849A5770237109B300F4C78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849A574D237109B000F4C78D /* Project object */;
+}
